@@ -1,9 +1,10 @@
-#Demo Resource Pack and Behavior Pack / 材质包 & 行为包 示例
+# Demo Resource Pack and Behavior Pack / 材质包 & 行为包 示例
 
 * Resource Pack / 材质包包括:
   1. Manifest.json / 资源包模板
   2. Textures of Particles / 粒子材质
   3. Particles.json / 粒子文档
+  
     - Include All Particles from custom_particle_generator in .zip form
     - Also Include Float, Float2 and gradient particles
     - 包含所有粒子生成器中生成的粒子（压缩包）
