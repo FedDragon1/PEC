@@ -55,6 +55,22 @@ Create a new file after set up the working environment, for example ```output.ja
  * 或者使用  
    ```BlockToRipple.ripple(<double: x>, <double: y>, <double: height>, <String: type>, <String: particle>);```  
    使用方块变涟漪特效  
+  
+## ```MCbeDrawLines.MethodIdentifier()```  
+Using this method, you could use four different kinds of line to connect 2 coordinates.  
+* ```<String: line name>```
+  ---
+
+```"line"```: Use Segment Connect 2 Coordinates
+
+```"parabola```: Use A Part of Parabola Connect 2 Coordinates
+
+```"spiralLine"```: Use Segment Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect
+
+```"spiralParabola"```: Use A Part of Parabola Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect
+
+---
+
      
  
    
