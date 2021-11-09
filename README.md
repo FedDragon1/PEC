@@ -59,17 +59,29 @@ Create a new file after set up the working environment, for example ```output.ja
 ## ```MCbeDrawLines.MethodIdentifier()```  
 Using this method, you could use four different kinds of line to connect 2 coordinates.  
 * ```<String: line name>```
-  ---
-
-```"line"```: Use Segment Connect 2 Coordinates
-
-```"parabola```: Use A Part of Parabola Connect 2 Coordinates
-
-```"spiralLine"```: Use Segment Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect
-
-```"spiralParabola"```: Use A Part of Parabola Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect
-
----
+<table style="margin-left:10px;">  
+<tr>  
+<th>Parameter</th>  
+<th>Description</th>  
+</tr>  
+<tr>  
+<td><code>"line"</code></td>  
+<td>Use A Segment Connect 2 Coordinates</td>  
+</tr>  
+<tr>  
+<td><code>"parabola"</code></td>  
+<td>Use A Part of Parabola Connect 2 Coordinates</td>  
+</tr>  
+<tr>  
+<td><code>"SpiralLine"</code></td>  
+<td>Use Segment Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
+</tr>  
+</tr>  
+<tr>  
+<td><code>"SpiralParabola"</code></td>  
+<td>Use A Part of Parabola Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
+</tr>  
+</table>
 
      
  
