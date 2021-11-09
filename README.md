@@ -1,5 +1,6 @@
 
 
+
 <p align="center">
 
 <a href="https://github.com/FedDragon/PEC">
@@ -31,11 +32,29 @@ PCE需要 Java 运行，推荐 Java  11+
   
 ## Using PCE / 使用方式  
 
+### Brief Introduction:  
 Create a new file after set up the working environment, for example ```output.java```.  
 * In this file, you could use  
-  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle>, <int: spiral count>);``` to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
+  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle>, <int: spiral count>);```  
+  to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
 * You could also use  
   ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect);```  
   to use the floating effect.
- * Or you could use 
-	```a```
+ * And you could use 
+	```BlockToRipple.ripple(<double: x>, <double: y>, <double: height>, <String: type>, <String: particle>);```  
+	to change blocks into moving particles.  
+  
+### 简介：  
+在将Apfloat和程序正确的配置到工作环境之后，创建一个新的文件，比如 ```output.java```  
+* 在这个文件中，你可以使用  
+  ```MCbeDrawLines.MethodIdentifier(<String: 线种类>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: 高度>, <String: 粒子名称>, <int: 螺旋数量>);```  
+  链接 ```(x1, height, y1) ``` 到 ```(x2, height, y2)``` (Minecaft 坐标)  
+ * 你还可以使用  
+   ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect);```    
+   来使用漂浮消失特效
+ * 或者使用  
+   ```BlockToRipple.ripple(<double: x>, <double: y>, <double: height>, <String: type>, <String: particle>);```  
+   使用方块变涟漪特效  
+     
+ 
+   
