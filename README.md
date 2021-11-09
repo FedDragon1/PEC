@@ -59,7 +59,8 @@ Create a new file after set up the working environment, for example ```output.ja
 ## ```MCbeDrawLines.MethodIdentifier()```  
 Using this method, you could use four different kinds of line to connect 2 coordinates.  
 * ```<String: line name>```
-<table style="margin-left:10px;">  
+<div style="margin:20px">
+<table>  
 <tr>  
 <th>Parameter</th>  
 <th>Description</th>  
@@ -82,6 +83,7 @@ Using this method, you could use four different kinds of line to connect 2 coord
 <td>Use A Part of Parabola Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
 </tr>  
 </table>
+</div>
 
      
  
