@@ -32,9 +32,10 @@ PCE需要 Java 运行，推荐 Java  11+
 ## Using PCE / 使用方式  
 
 Create a new file after set up the working environment, for example ```output.java```.  
-* In this file, you could use ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle>, <int: spiral count>);``` to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
+* In this file, you could use  
+  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle>, <int: spiral count>);``` to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
 * You could also use  
-  ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect);```
+  ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect);```  
   to use the floating effect.
  * Or you could use 
 	```a```
