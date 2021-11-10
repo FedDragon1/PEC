@@ -1,6 +1,7 @@
 
 
 
+
 <p align="center">
 
 <a href="https://github.com/FedDragon/PEC">
@@ -35,7 +36,7 @@ PCE需要 Java 运行，推荐 Java  11+
 ### Brief Introduction:  
 Create a new file after set up the working environment, for example ```output.java```.  
 * In this file, you could use  
-  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle>, <int: spiral count>);```  
+  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: effect>, <int: spiral count>);```  
   to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
 * You could also use  
   ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect);```  
@@ -59,7 +60,7 @@ Create a new file after set up the working environment, for example ```output.ja
 ## ```MCbeDrawLines.MethodIdentifier()```  
 Using this method, you could use four different kinds of line to connect 2 coordinates.  
 * ```<String: line name>```
-<div style="margin:20px">
+<div>
 <table>  
 <tr>  
 <th>Parameter</th>  
@@ -81,6 +82,73 @@ Using this method, you could use four different kinds of line to connect 2 coord
 <tr>  
 <td><code>"SpiralParabola"</code></td>  
 <td>Use A Part of Parabola Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
+</tr>  
+</table>
+</div>
+
+* Coordinates
+<div>
+<table>  
+<tr>  
+<th>Parameter</th>  
+<th>Description</th>  
+</tr>  
+<tr>  
+<td>ㅤㅤㅤ<code>&ltdouble: x1&gt</code></td>  
+<td>ㅤㅤㅤx coordinate of first block</td>  
+</tr>  
+<tr>  
+<td>ㅤㅤㅤ<code>&ltdouble: x2&gt</code></td>  
+<td>ㅤㅤㅤx coordinate of second block</td>  
+</tr>  
+<tr>  
+<td>ㅤㅤㅤ<code>&ltdouble: y1&gt</code></td>  
+<td>ㅤㅤㅤz coordinate of first block</td>  
+</tr>  
+</tr>  
+<tr>  
+<td>ㅤㅤㅤ<code>&ltdouble:y2&gt</code>ㅤ</td>  
+<td>ㅤㅤㅤz coordinate of second block</td>  
+</tr>  
+<tr>  
+<td>ㅤㅤㅤ<code>&ltdouble:height&gt</code>ㅤㅤㅤ</td>  
+<td>ㅤㅤㅤy coordinate of both blocksㅤㅤㅤ</td>  
+</tr>  
+</table>
+</div>
+
+>**NOTE**: All coordinate in description follows Minecraft coordinate system. In Minecraft, x and z values represent East, West, North, and South, y value represents the height; where normally, z value represents the height.  
+
+* ```<String: effect>```  
+This String input means what particle PCE is going to use. The output would be:  
+```particle minecraft:```**```effect```**``` x y z```
+<div>
+<table>  
+<tr>  
+<th>Effect</th>  
+<th>Description</th>  
+<th>GIF</th>
+</tr>  
+<tr>  
+<td><code>"endRod"</code></td>  
+<td>A colorful particle included in PCE, modified from <code>"endrod"</code></td>
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/endRod.gif></td>  
+</tr>  
+<tr>  
+<td><code>"gradient"</code></td>  
+<td>Particles which change form purple to white / white to purple</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
+</tr>  
+<tr>  
+<td><code>""</code></td>  
+<td></td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
+</tr>  
+</tr>  
+<tr>  
+<td><code>""</code></td>  
+<td></td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
 </tr>  
 </table>
 </div>
