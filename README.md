@@ -27,7 +27,7 @@ PCE 可以帮助您在《我的世界基岩版》制作特效红石音乐。
 PCE Runs on Java, Recommend Java 11+.  
 System Requirement: [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
   
-PCE需要 Java 运行，推荐 Java  11+ 
+PCE需要 Java 运行，推荐 Java  11+  
 需要外部库运行：[Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
   
 ## Using PCE / 使用方式  
