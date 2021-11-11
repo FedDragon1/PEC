@@ -137,21 +137,59 @@ This String input means what particle PCE is going to use. The output would be:
 <tr>  
 <td><code>"gradient"</code></td>  
 <td>Particles which change form purple to white / white to purple</td>  
-<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/gradient.gif></td>  
 </tr>  
 <tr>  
-<td><code>""</code></td>  
-<td></td>  
-<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
+<td><code>"endrod_no_gravity"</code></td>  
+<td>Modified <code>endrod</code> which removes gravity and changed texture.</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/endrod_ng.gif></td>  
 </tr>  
 </tr>  
 <tr>  
-<td><code>""</code></td>  
-<td></td>  
-<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/Gradient.gif></td>  
+<td>...</td>  
+<td>...</td>  
+<td>...</td>  
 </tr>  
 </table>
 </div>
+
+* ```<int: count>```  
+ Only used in ```SpiralLine``` and ```SpiralParabola```.  
+<div>
+<table>  
+<tr>  
+<th colspan="2">Count</th>  
+<th>Preview</th>  
+</tr>  
+<tr>  
+<td>ㅤ<code>1</code>ㅤ</td>  
+<td rowspan="3">Spiral Line</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_line_1.gif></td>  
+</tr>  
+<tr>  
+<td>ㅤ<code>2</code>ㅤ</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_line_2.gif></td>  
+</tr>  
+<tr>  
+<td><code>else</code>ㅤ</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_line_0.gif></td>  
+</tr>  
+<tr>  
+<td>ㅤ<code>1</code>ㅤ</td>  
+<td rowspan="3">Spiral Parabola</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_parabola_1.gif></td>  
+</tr>  
+<tr>  
+<td>ㅤ<code>2</code>ㅤ</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_parabola_2.gif></td>  
+</tr>  
+<tr>  
+<td><code>else</code>ㅤ</td>  
+<td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_parabola_0.gif></td>  
+</tr>  
+</table>
+</div>
+
 
      
  
