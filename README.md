@@ -300,7 +300,7 @@ This String input means what particle PCE is going to use. The output would be:
 <td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_parabola_1.gif></td>  
 </tr>  
 <tr>  
-<td>ㅤ<code>2</code>ㅤ</td>  
+<td>ㅤ<code>2</code>ㅤㅤ</td>  
 <td><img src=https://raw.githubusercontent.com/FedDragon1/PEC/main/logo/spiral_parabola_2.gif></td>  
 </tr>  
 </table>
