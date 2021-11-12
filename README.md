@@ -21,9 +21,6 @@ PCE 可以帮助您在《我的世界基岩版》制作特效红石音乐。
 推荐在 Windows 10 环境下进行制作，利用PCE生成的文件在其他平台理论上可用。
   
 ## Installation / 下载与安装  
-> **NOTE**: I have no idea of how to make packages and ``` .jar ``` file. In order to PCE, you have to download and have the ```.java``` files in your working environment then execute them with an external file  
->  
->  **注意**：因为我不会封装之类的技术，您需要直接下载源代码，加载在您的工作环境内，再创建一个文件调用这些程序  
 
 PCE Runs on Java, Recommend Java 11+.  
 System Requirement: [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
