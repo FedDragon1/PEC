@@ -255,7 +255,7 @@ This String input means what particle PCE is going to use. The output would be:
 >**注意**: 上面使用的坐标均为MC坐标。在Minecraft，x 和 z 坐标确定东西南北，y 坐标确定高度；然而一般的空间直角坐标系中 z 轴确定高度。
 
 * ```<String: 粒子名称>```  
-This String input means what particle PCE is going to use. The output would be:  
+这个参数代表了 PEC 将使用的粒子，其输出为:  
 ```particle minecraft:```**```粒子名称```**``` x y z```
 <div>
 <table>  
