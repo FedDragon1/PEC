@@ -71,7 +71,7 @@ Within this class, you could use four different kinds of line or curve to connec
 <th>Description</th>  
 </tr>  
 <tr>
-	<td colspan="2"><code>normal</code></td>
+	<td rowspan="2"><code>normal</code></td>
 <td><code>"line"</code></td>  
 <td>Use A Segment Connect 2 Coordinates</td>  
 </tr>  
@@ -80,7 +80,7 @@ Within this class, you could use four different kinds of line or curve to connec
 <td>Use A Part of Parabola Connect 2 Coordinates</td>  
 </tr>  
 <tr>  
-	<td colspan="2"><code>movable</code></td>
+	<td rowspan="2"><code>movable</code></td>
 <td><code>"SpiralLine"</code></td>  
 <td>Use Segment Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
 </tr>  
@@ -200,7 +200,7 @@ This String input means what particle PCE is going to use. The output would be:
 <th>实际效果</th>  
 </tr>  
 <tr>  
-	<td colspan="2"><code>normal</code></td>
+	<td rowspan="2"><code>normal</code></td>
 <td><code>"line"</code></td>  
 <td>用线段连接两个坐标</td>  
 </tr>  
@@ -209,7 +209,7 @@ This String input means what particle PCE is going to use. The output would be:
 <td>用抛物线连接两个坐标</td>  
 </tr>  
 <tr>  
-	<td colspan="2"><code>movable</code></td>
+	<td rowspan="2"><code>movable</code></td>
 <td><code>"SpiralLine"</code></td>  
 <td>用线段连接两个坐标，不过粒子会移动形成螺旋线</td>  
 </tr>  
