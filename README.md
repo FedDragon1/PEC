@@ -23,47 +23,55 @@ PCE 可以帮助您在《我的世界基岩版》制作特效红石音乐。
 ## Installation / 下载与安装  
 
 PCE Runs on Java, Recommend Java 11+.  
-System Requirement: [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
+System Requirement: 
+* [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
+* [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
   
 PCE需要 Java 运行，推荐 Java  11+  
-需要外部库运行：[Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
+需要外部库运行：
+* [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
+* [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
   
 ## Using PCE / 使用方式  
 
 ### Brief Introduction:  
 Create a new file after set up the working environment, for example ```output.java```.  
 * In this file, you could use  
-  ```MCbeDrawLines.MethodIdentifier(<String: line name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle_name>, <int: spiral count>);```  
-  to draw a line between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate)
+  ```Draw.normal(<String: string name>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: height>, <String: particle_name>, <int: spiral count>);```  
+  to draw a stable string between ```(x1, height, y1) ``` to ```(x2, height, y2)``` (Minecaft Coordinate).
+  Use `Draw.movable` with same parameter to draw moving strings.
 * You could also use  
-  ```BlockFloat.fade(<double: x>, <double: y>, <double: height>, <String: effect_type>);```  
+  ```Dissapear.fade(<double: x>, <double: y>, <double: height>, <String: effect_type>);```  
   to use the floating effect.
  * And you could use 
-	```BlockToRipple.ripple(<double: x>, <double: y>, <double: height>, <String: effect_type>, <String: particle_name>);```  
+	```Dissapear.ripple(<double: x>, <double: y>, <double: height>, <String: effect_type>, <String: particle_name>);```  
 	to change blocks into moving particles.  
   
 ### 简介：  
 在将Apfloat和程序正确的配置到工作环境之后，创建一个新的文件，比如 ```output.java```  
 * 在这个文件中，你可以使用  
-  ```MCbeDrawLines.MethodIdentifier(<String: 线种类>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: 高度>, <String: 粒子名称>, <int: 螺旋数量>);```  
-  链接 ```(x1, height, y1) ``` 到 ```(x2, height, y2)``` (Minecaft 坐标)  
+  ```Draw.normal(<String: 线种类>, <double: x1>, <double: x2>, <double: y1>, <double: y2>, <double: 高度>, <String: 粒子名称>, <int: 螺旋数量>);```  
+  用静态粒子链接 ```(x1, height, y1) ``` 到 ```(x2, height, y2)``` (Minecaft 坐标),
+  或者用相同的参数类型使用 `Draw.movable`, 用动态粒子连接两个坐标
  * 你还可以使用  
-   ```BlockFloat.fade(<double: x>, <double: y>, <double: 高度>, <String: 效果>);```    
+   ```Dissapear.fade(<double: x>, <double: y>, <double: 高度>, <String: 效果>);```    
    来使用漂浮消失特效
  * 或者使用  
-   ```BlockToRipple.ripple(<double: x>, <double: y>, <double: 高度>, <String: 效果>, <String: 例子名称>);```  
+   ```Dissapear.ripple(<double: x>, <double: y>, <double: 高度>, <String: 效果>, <String: 例子名称>);```  
    使用方块变涟漪特效  
   
-## ```MCbeDrawLines.MethodIdentifier()```  
-Using this method, you could use four different kinds of line or curve to connect 2 coordinates.  
+## `Draw`  
+Within this class, you could use four different kinds of line or curve to connect 2 coordinates.  
 * ```<String: line name>```
 <div>
 <table>  
-<tr>  
+<tr>
+	<th>Method</th>
 <th>Parameter</th>  
 <th>Description</th>  
 </tr>  
-<tr>  
+<tr>
+	<td colspan="2"><code>normal</code></td>
 <td><code>"line"</code></td>  
 <td>Use A Segment Connect 2 Coordinates</td>  
 </tr>  
@@ -72,6 +80,7 @@ Using this method, you could use four different kinds of line or curve to connec
 <td>Use A Part of Parabola Connect 2 Coordinates</td>  
 </tr>  
 <tr>  
+	<td colspan="2"><code>movable</code></td>
 <td><code>"SpiralLine"</code></td>  
 <td>Use Segment Connect 2 Coordinates, But Particles Will Move and Create Spiral Line Effect</td>  
 </tr>  
@@ -186,10 +195,12 @@ This String input means what particle PCE is going to use. The output would be:
 <div>
 <table>  
 <tr>  
+	<th>方法</th>
 <th>参数</th>  
 <th>实际效果</th>  
 </tr>  
 <tr>  
+	<td colspan="2"><code>normal</code></td>
 <td><code>"line"</code></td>  
 <td>用线段连接两个坐标</td>  
 </tr>  
@@ -198,6 +209,7 @@ This String input means what particle PCE is going to use. The output would be:
 <td>用抛物线连接两个坐标</td>  
 </tr>  
 <tr>  
+	<td colspan="2"><code>movable</code></td>
 <td><code>"SpiralLine"</code></td>  
 <td>用线段连接两个坐标，不过粒子会移动形成螺旋线</td>  
 </tr>  
@@ -277,7 +289,7 @@ This String input means what particle PCE is going to use. The output would be:
 </div>
 
 * ```<int: count>```  
- 只在 ```SpiralLine``` 和 ```SpiralParabola``` 中使用。  
+ 只在 `movable` 方法中使用。  
 <div>
 <table>  
 <tr>  
