@@ -34,7 +34,7 @@ PCE需要 Java 运行，推荐 Java  11+
   
 ## Using PCE / 使用方式  
 
-> More Information will be in wiki //
+> More Information will be in wiki \\
 > 具体使用方式将在wiki中
 
 * Example Particles
