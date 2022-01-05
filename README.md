@@ -26,15 +26,18 @@ PCE Runs on Java, Recommend Java 11+.
 System Requirement: 
 * [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
 * [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
+* [Exp4j](https://www.objecthunter.net/exp4j/download.html)
   
 PCE需要 Java 运行，推荐 Java  11+  
 需要外部库运行：
 * [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
 * [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
+* [Exp4j](https://www.objecthunter.net/exp4j/download.html)
   
 ## Using PCE / 使用方式  
 
-> More Information will be in wiki \\
+> More Information will be in wiki 
+
 > 具体使用方式将在wiki中
 
 * Example Particles
