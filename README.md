@@ -20,22 +20,6 @@ It is specificly deigned for Minecraft Windows 10. The file created could be use
 PCE 可以帮助您在《我的世界基岩版》制作特效红石音乐。  
 推荐在 Windows 10 环境下进行制作，利用PCE生成的文件在其他平台理论上可用。
   
-## Installation / 下载与安装  
-
-PCE Runs on Java, Recommend Java 11+.  
-System Requirement: 
-* [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
-* [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
-* [Exp4j](https://www.objecthunter.net/exp4j/download.html)
-* [Bean Shell](https://github.com/beanshell/beanshell/releases/download/2.1.0/bsh-2.1.0.jar)
-  
-PCE需要 Java 运行，推荐 Java  11+  
-需要外部库运行：
-* [Apfloat for Java](http://www.apfloat.org/apfloat_java/)  
-* [Apache Poi](https://archive.apache.org/dist/poi/release/bin/poi-bin-3.15-20160924.zip)
-* [Exp4j](https://www.objecthunter.net/exp4j/download.html)
-* [Bean Shell](https://github.com/beanshell/beanshell/releases/download/2.1.0/bsh-2.1.0.jar)
-  
 ## Using PCE / 使用方式  
 
 > More Information will be in wiki 
